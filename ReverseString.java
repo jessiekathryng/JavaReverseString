@@ -14,7 +14,7 @@ public class ReverseString {
 			String output = "";
 			
 //			Using a for loop to go through each character in the string; 
-//			We will start at the end of the string (-1) and decrement i one at a time (i--) until we get to index 0 (i >= 0)
+//			We will start at the end of the string and decrement i one at a time (i--) until we get to index 0
 			for(int i = input.length() - 1; i >= 0; i--) {
 //				We will us charAt() to return the character at the specified index in the string
 				output+=input.charAt(i);
